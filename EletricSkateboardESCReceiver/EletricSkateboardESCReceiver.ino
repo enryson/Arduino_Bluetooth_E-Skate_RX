@@ -83,6 +83,7 @@ void loop() {
     else {conectioncheck++; }
   }
 }
+//novo comentario
 //Get Voltage
 static void getv() {
   float v = (analogRead(5) * 5.0) / 1024.0;
